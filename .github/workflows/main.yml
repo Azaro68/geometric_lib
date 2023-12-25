@@ -10,7 +10,7 @@ on:
 
 jobs: 
   tests-for-ubuntu:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: repository copy
         uses: actions/checkout@v2
